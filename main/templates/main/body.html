@@ -2,7 +2,9 @@
 {% block stuff %}
     <p>These are the items that I would like to eventually add to this page:</p>
     {% for item in list %}
-        *{{ item }}
-        <br>
+        <ul>
+            <li> {{ item }} </li>
+        </ul>
     {% endfor %}
+    <p>First up, NAV BAR</p>
 {% endblock stuff %}
